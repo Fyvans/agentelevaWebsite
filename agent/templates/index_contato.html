@@ -1,0 +1,45 @@
+<!doctype html>
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+
+    <section class="nossa">
+        <div class="container-fluid">
+            <div class="contar" style="padding: 70px 0px 70px 0px;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text text-center">
+
+                            <h3> <span><i class="fa fa-long-arrow-right" aria-hidden="true"
+                                        style="width: 40px; padding-left:10px;"></i></span> Entre em contato</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="ira-text text-left" style="margin-left: 30px;">
+                            
+                            <p> <span>HQ </span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                {{ con.hq }}</p>
+                            <p> <span>Instagram </span> &nbsp;&nbsp;&nbsp; {{ con.instagram }}</p>
+                            <p> <span>Tel </span> &nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ con.tel }}
+                            </p>
+                        
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex bd-highlight">
+                        <div class="p-2 flex-fill bd-highlight">
+                            <img src="{% static 'images/4.jpeg' %}" class="img-3" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+{% endblock %}
+</html>

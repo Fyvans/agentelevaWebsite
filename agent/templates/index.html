@@ -1,0 +1,37 @@
+<!doctype html>
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+    <section class="main-banner">
+        <div class="container-fluid">
+
+            <div class="d-flex bd-highlight">
+
+                <div class="p-3 bd-highlight banner-logo">
+                    <div>
+                        <img src="{% static 'images/logo.jpeg' %}"  class="banner-logo-img" alt="">
+                    </div>
+                    <!-- <div class="logo2">
+                        <img src="{static 'images/logo-2.png' %}"  class="banner-logo-img-2" alt="">
+                    </div> -->
+                </div>
+                <div class="p-2 flex-grow-1 bd-highlight">
+                    <div class="banner">
+                        <div>
+                            <img src="{% static 'images/banner.jpg' %}" class="banner-img" alt="">
+                        </div>
+                        <div class="title-banner">
+                            <h2>Agente Leva</h2>
+                            <p> A todo o lado</p>
+                            
+                        </div>
+                        <div class="marque">
+                            <p>Marque aque suaproxima viagem</p>
+                            <button type="button" class="btn btn-light">Aqui</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+{% endblock %}

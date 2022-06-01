@@ -1,0 +1,134 @@
+
+body{
+    width: 100%;
+}
+hr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: bold;
+    color: black;
+    border-top: 5px solid red;
+}
+
+nav {
+    background-color: #fbdd13;
+}
+
+#btn{
+    display: inline-block;
+}
+
+a:hover{
+    background: red;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+
+.banner-logo {
+    display: flex;
+    background-color: #131215;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    height: auto;
+}
+.banner-logo-img-2 {
+    display: none !important;
+}
+.banner {
+    position: relative;
+}
+.banner-img {
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+}
+.p-2 {
+    padding: 0 !important;
+}
+.title-banner {
+    position: absolute;
+    height: 120px;
+    width: 320px;
+    background-color: #fbdd13;
+    z-index: 1;
+    top: 200px;
+    /* text-align: center; */
+    padding: 18px 10px 0px 40px;
+    color: white;
+}
+.marque {
+    position: absolute;
+    bottom: 55%;
+    color: white;
+    left: 55%;
+}
+
+.contar {
+    background-color: #fbdd13;
+}
+.img-3 {
+    width: 100%;
+    background-size: contain;
+
+}
+
+.last {
+    background-color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    .d-flex {
+        display: block !important;
+    }
+    .marque {
+        position: relative;
+        bottom: 55%;
+        color: white;
+        left: 0%;
+        right: 0%;
+        margin: 0% auto;
+        text-align: center;
+        top: 25%;
+    }
+    .banner-logo {
+        display: block;
+        background-color: transparent;
+        height: auto;
+    }
+    .banner-logo-img {
+        display: none !important;
+    }
+    .banner-logo-img-2 {
+        display: block !important;
+        max-width: 100px;
+        z-index: 45;
+    }
+    .title-banner {
+        position: absolute;
+        height: 120px;
+        width: 100%;
+        background-color: #fbdd13;
+        z-index: -1;
+        top: -123px;
+        /* text-align: center; */
+        padding: 18px 10px 0px 40px;
+        color: white;
+        text-align: right;
+    }
+    .banner-img {
+   
+        width: 100%;
+        background-position: center;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img-3 {
+        display: block;
+    }
+}
